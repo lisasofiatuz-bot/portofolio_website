@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio digital pribadi — mahasiswa, kreator, dan pengembang web pemula.">
+  <meta name="theme-color" content="#f7f3ed">
+  <title>Portofolio | Lisa Sofiatuz Zahro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten / Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">n<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-id="nav-home">Beranda</a>
+        <a href="#about" data-id="nav-about">Tentang</a>
+        <a href="#skills" data-id="nav-skills">Keahlian</a>
+        <a href="#experience" data-id="nav-experience">Pengalaman</a>
+        <a href="#projects" data-id="nav-projects">Proyek</a>
+        <a href="#gallery" data-id="nav-gallery">Galeri</a>
+        <a href="#contact" data-id="nav-contact">Kontak</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" id="languageToggle" aria-label="Ganti bahasa">EN</button>
+        <button class="icon-btn" id="themeToggle" aria-label="Aktifkan mode gelap"><i class="fa-regular fa-moon"></i></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span><span data-id="hero-eyebrow">PORTOFOLIO DIGITAL SAYA</span></p>
+        <h1 data-id="hero-title">Halo, saya <em>Lisa Sofiatuz Zahro.</em></h1>
+        <h2 data-id="hero-role">Mahasiswa Teknik Informatika & Kreator Digital</h2>
+        <p class="hero-description" data-id="hero-desc">Saya tertarik pada desain visual, pengolahan data, dan fotografi. Saya senang mengubah ide menjadi pengalaman digital yang sederhana dan bermanfaat.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects" data-id="hero-cta">Jelajahi Karya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="social-links" aria-label="Media sosial">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-blob"></div>
+        <div class="profile-frame">
+          <img src="images/profile.jpg" alt="foto profile">
+          <span class="profile-note"><i class="fa-solid fa-sparkles"></i> <span data-id="profile-note">Terus belajar, terus berkarya</span></span>
+        </div>
+        <div class="floating-card"><i class="fa-solid fa-code"></i><span>Creative<br><strong>desain</strong></span></div>
+      </div>
+      <a href="#about" class="scroll-cue"><span data-id="scroll">GULIR UNTUK MENJELAJAH</span><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">01 / <span data-id="about-kicker">KENALI SAYA</span></p><h2 data-id="about-title">Sedikit cerita <em>tentang saya.</em></h2></div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p data-id="about-p1">Saya adalah mahasiswa Teknik Informatika yang senang mengeksplorasi teknologi dan kreativitas. Bagi saya, belajar bukan hanya memahami teori, tetapi juga mencoba, membuat, mengevaluasi, dan memperbaiki sesuatu.</p>
+            <p data-id="about-p2">Saat ini saya sedang mengembangkan kemampuan di bidang desain dan visual storytelling melalui fotografi.</p>
+            <p data-id="about-p3">Saya terbuka untuk berkolaborasi dalam proyek, kegiatan organisasi, maupun kesempatan belajar yang dapat menambah pengalaman.</p>
+            <a href="#contact" class="text-link" data-id="about-link">Mari terhubung <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="about-facts reveal">
+            <div class="fact-card"><span class="fact-icon"><i class="fa-solid fa-graduation-cap"></i></span><small data-id="fact-education">Pendidikan</small><strong data-id="fact-education-value">Teknik Informatika</strong></div>
+            <div class="fact-card"><span class="fact-icon"><i class="fa-solid fa-location-dot"></i></span><small data-id="fact-location">Domisili</small><strong data-id="fact-location-value">Kebumen,Jawa Tengah,Indonesia</strong></div>
+            <div class="fact-card"><span class="fact-icon"><i class="fa-solid fa-heart"></i></span><small data-id="fact-interest">Minat</small><strong data-id="fact-interest-value">Teknologi & Kreativitas</strong></div>
+            <div class="fact-card"><span class="fact-icon"><i class="fa-solid fa-lightbulb"></i></span><small data-id="fact-motto">Prinsip</small><strong data-id="fact-motto-value">Learn by doing</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / <span data-id="skills-kicker">KEMAMPUAN</span></p><h2 data-id="skills-title">Hal yang sedang <em>saya kuasai.</em></h2><p data-id="skills-subtitle">Daftar berikut adalah contoh. Sesuaikan levelnya dengan kemampuan yang benar-benar kamu miliki.</p></div>
+      <div class="skills-layout">
+        <div class="skill-panel reveal">
+          <h3><i class="fa-solid fa-people-group"></i> <span data-id="soft">Soft skills</span></h3>
+          <div class="tag-list"><span>Communication</span><span>Teamwork</span><span>Problem Solving</span><span>Creativity</span><span>Time Management</span><span>Adaptability</span><span>Attention to Detail</span></div>
+          <div class="tools-box"><h4 data-id="tools-title">Tools yang digunakan</h4><div class="tool-icons"><span><i class="fa-brands fa-figma"></i> Figma</span><span><i class="fa-brands fa-github"></i> GitHub</span><span><i class="fa-solid fa-code"></i> VS Code</span><span><i class="fa-solid fa-database"></i> MySQL</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="education">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">03 / <span data-id="journey-kicker">PERJALANAN</span></p><h2 data-id="education-title">Pendidikan & <em>pengembangan diri.</em></h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">2024 — Sekarang</p><h3 data-id="edu-1-title">S1 Teknik Informatika</h3><p data-id="edu-1-desc">Universitas Ma'arif Nahdlatul Ulama • Fokus pada desaindan teknologi informasi.</p></article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">2021 — 2024</p><h3 data-id="edu-2-title">MA</h3><p data-id="edu-2-desc">MA DARUSS'ADAH • Ilmu Pengetahuan Alam.</p></article>
+          <article class="timeline-item reveal"><span class="timeline-dot"></span><p class="timeline-date">2022 — Sekarang</p><h3 data-id="edu-3-title">Belajar Mandiri & Pelatihan</h3><p data-id="edu-3-desc">Mengikuti tutorial, kelas daring, seminar, dan latihan proyek mandiri.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow">04 / <span data-id="experience-kicker">PENGALAMAN</span></p><h2 data-id="experience-title">Belajar melalui <em>pengalaman.</em></h2><p data-id="experience-subtitle">Pengalaman organisasi, kepanitiaan, volunteer, magang, atau proyek kelompok dapat ditampilkan di sini.</p></div>
+      <div class="experience-grid">
+         <article class="experience-card reveal"><span class="card-icon"><i class="fa-solid fa-calendar-check"></i></span><p class="timeline-date">2025 • Kepanitiaan</p><h3 data-id="exp-2-title">Panitia Kegiatan </h3><p data-id="exp-2-desc">saya berkontribusi membantu menjaga keamanan acara.</p></article>
+        <article class="experience-card reveal"><span class="card-icon"><i class="fa-solid fa-people-arrows-left-right"></i></span><p class="timeline-date">2025 • Proyek Tim</p><h3 data-id="exp-3-title">Kolaborasi Proyek Perkuliahan</h3><p data-id="exp-3-desc">saya berkontribusi sebagai data analisis.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">05 / <span data-id="projects-kicker">KARYA PILIHAN</span></p><h2 data-id="projects-title">Proyek yang <em>saya kerjakan.</em></h2><p data-id="projects-subtitle">Pilih kategori untuk melihat karya. Ganti gambar, deskripsi, dan tautan dengan proyek milikmu.</p></div>
+        <div class="filter-bar reveal" id="projectFilters">
+          <button class="filter-btn active" data-filter="all" data-id="filter-all">Semua</button>
+        
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card reveal" data-category="data">
+            <button class="project-image" data-lightbox="images/projects/project-data.svg" data-caption="Proyek pembersihan dan analisis data"><img src="images/projects/project-data.svg" alt="Pratinjau proyek data cleaning"><span class="image-zoom"><i class="fa-solid fa-expand"></i></span></button>
+            <div class="project-content"><div class="project-meta"><span>DATA PROCESSING</span><span>2026</span></div><h3>Data Cleaning Rumah Sakit</h3><p>Latihan membersihkan data, menangani missing value, mendeteksi pencilan, dan membuat visualisasi.</p><div class="project-tags"><span>Python</span><span>Pandas</span><span>Matplotlib</span></div><a class="text-link" href="#contact">Diskusikan proyek <i class="fa-solid fa-arrow-right"></i></a></div>
+          <article class="project-card reveal" data-category="creative">
+            <button class="project-image" data-lightbox="images/projects/project-photo.svg" data-caption="Eksplorasi fotografi dan visual"><img src="images/projects/project-photo.svg" alt="Pratinjau karya fotografi"><span class="image-zoom"><i class="fa-solid fa-expand"></i></span></button>
+            <div class="project-content"><div class="project-meta"><span>PHOTOGRAPHY</span><span>2026</span></div><h3>Visual Stories</h3><p>Kumpulan eksplorasi komposisi, cahaya, warna, dan cerita melalui fotografi.</p><div class="project-tags"><span>Photography</span><span>Editing</span><span>Visual</span></div><a class="text-link" href="#gallery">Lihat galeri <i class="fa-solid fa-arrow-right"></i></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="gallery">
+      <div class="section-heading reveal"><p class="eyebrow">06 / <span data-id="gallery-kicker">SISI KREATIF</span></p><h2 data-id="gallery-title">Cerita dalam <em>sebuah gambar.</em></h2><p data-id="gallery-subtitle">Klik foto untuk melihatnya lebih besar. Ganti gambar contoh dengan hasil fotomu sendiri.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall reveal" data-lightbox="images/photography/nature.jpg" ><img src="images/photography/nature.jpg" ><span>Nature / 01</span></button>
+        <button class="gallery-item reveal" data-lightbox="images/photography/retro.jpg"><img src="images/photography/retro.jpg" ><span>Retro</span></button>
+        <button class="gallery-item reveal" data-lightbox="images/photography/aestetic.jpg"><img src="images/photography/aestetic.jpg" ><span>Object / 03</span></button>
+      </div>
+    </section>
+
+    <section class="section container" id="services">
+      <div class="section-heading reveal"><p class="eyebrow">08 / <span data-id="services-kicker">YANG BISA SAYA BANTU</span></p><h2 data-id="services-title">Minat yang ingin <em>saya kembangkan.</em></h2></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><i class="fa-brands fa-figma"></i><h3>Design</h3><p>Menyesuaikan cahaya dan mengedit warna dan kecerahan agar menarik.</p></article>
+        <article class="service-card reveal"><i class="fa-solid fa-camera"></i><h3>Photography</h3><p>Mendokumentasikan objek dan momen melalui eksplorasi komposisi dan pencahayaan.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="testimonials">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">09 / <span data-id="testimonials-kicker">KATA MEREKA</span></p><h2 data-id="testimonials-title">Kolaborasi yang <em>berkesan.</em></h2><p data-id="testimonials-subtitle">Contoh tampilan testimoni. Gunakan hanya komentar asli dan dengan izin pemberi testimoni.</p></div>
+        <div class="testimonial-grid">
+          <blockquote class="testimonial-card reveal"><i class="fa-solid fa-quote-left"></i><p>"Mampu bekerja sama dengan baik dan terbuka terhadap masukan selama proses pengerjaan proyek."</p><footer><strong>Indi Wardatun Nafisah</strong><span>Rekan proyek perkuliahan</span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">10 / <span data-id="contact-kicker">MARI TERHUBUNG</span></p><h2 data-id="contact-title">Punya ide? Mari <em>berdiskusi.</em></h2><p data-id="contact-subtitle">Saya terbuka untuk pertanyaan, kolaborasi, dan kesempatan belajar bersama.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:emailkamu@example.com" class="contact-line"><span><i class="fa-regular fa-envelope"></i></span><div><small>Email</small><strong>lisasofiatuz@gmail.com</strong></div></a>
+          <a href="https://wa.me/0882007160124" target="_blank" rel="noopener" class="contact-line"><span><i class="fa-brands fa-whatsapp"></i></span><div><small>WhatsApp</small><strong>+62 82007160124
+          
+          </strong></div></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="contact-line"><span><i class="fa-brands fa-linkedin-in"></i></span><div><small>LinkedIn</small><strong>www.linkedin.com/in/
+lisa-zahro-46402944a
+</strong></div></a>
+          <div class="availability"><span></span><p data-id="availability">Terbuka untuk kolaborasi dan kesempatan baru.</p></div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-row"><label for="name" data-id="form-name">Nama</label><input id="name" name="name" type="text" placeholder="Nama kamu" required minlength="2"></div>
+          <div class="form-row"><label for="email" data-id="form-email">Email</label><input id="email" name="email" type="email" placeholder="nama@email.com" required></div>
+          <div class="form-row"><label for="subject" data-id="form-subject">Subjek</label><input id="subject" name="subject" type="text" placeholder="Tujuan pesan" required></div>
+          <div class="form-row"><label for="message" data-id="form-message">Pesan</label><textarea id="message" name="message" rows="5" placeholder="Tuliskan pesanmu..." required minlength="10"></textarea></div>
+          <button class="btn btn-primary" type="submit"><span data-id="send-message">Kirim pesan</span> <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-note" data-id="form-note">Form ini akan membuka aplikasi email. Untuk pengiriman langsung, hubungkan layanan form/backend.</p>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home">n<span>.</span></a><p data-id="footer-text">Dibuat dengan rasa ingin tahu dan secangkir kreativitas.</p><a href="#top" class="back-top" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></a></div>
+    <div class="container copyright">© <span id="year"></span> lisasofiatuz. <span data-id="rights">Hak cipta dilindungi.</span></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Pratinjau gambar">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Gambar sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+    <figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Gambar berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

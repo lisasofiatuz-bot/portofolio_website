@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="#e2ece8"/>
+<circle cx="730" cy="110" r="150" fill="#73988a" opacity=".15"/>
+<circle cx="120" cy="530" r="190" fill="#73988a" opacity=".12"/>
+<rect x="100" y="100" width="700" height="400" rx="28" fill="#fff" opacity=".65"/>
+<text x="450" y="275" font-family="Arial,sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="#51465f">DATA CLEANING</text>
+<text x="450" y="335" font-family="Arial,sans-serif" font-size="24" text-anchor="middle" fill="#786b87">PYTHON PROJECT</text>
+</svg>
